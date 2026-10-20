@@ -1,5 +1,5 @@
 import React from 'react';
-import MainLayout from '../Layouts/MainLayout';
+import MainLayout from '../layouts/MainLayout';
 import { Link } from '@inertiajs/react';
 
 const Services = ({ services }) => {

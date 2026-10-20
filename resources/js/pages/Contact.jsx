@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Head, Link, useForm } from '@inertiajs/react';
-import MainLayout from '../Layouts/MainLayout';
+import MainLayout from '../layouts/MainLayout';
 
 const Contact = () => {
     const { data, setData, post, processing, errors, reset } = useForm({

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Head, Link } from '@inertiajs/react';
-import MainLayout from '../Layouts/MainLayout';
+import MainLayout from '../layouts/MainLayout';
 
 const About = () => {
     const teamMembers = [
