@@ -24,10 +24,10 @@ const Navbar = () => {
                     <div className="flex items-center">
                         <Link href="/" className="flex items-center space-x-2">
                             <div className="w-10 h-10 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg flex items-center justify-center">
-                                <span className="text-white font-bold text-lg">BN</span>
+                                <span className="text-white font-bold text-lg">DT</span>
                             </div>
                             <span className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-                                ByteNode
+                                ZedTask
                             </span>
                         </Link>
                     </div>
@@ -97,9 +97,9 @@ const Footer = () => {
                     <div className="col-span-1 md:col-span-2">
                         <div className="flex items-center space-x-2 mb-4">
                             <div className="w-8 h-8 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg flex items-center justify-center">
-                                <span className="text-white font-bold">BN</span>
+                                <span className="text-white font-bold">ZT</span>
                             </div>
-                            <span className="text-xl font-bold">ByteNode</span>
+                            <span className="text-xl font-bold">ZedTask</span>
                         </div>
                         <p className="text-gray-400 mb-4">
                             Transforming ideas into digital reality with cutting-edge technology solutions.
@@ -119,15 +119,15 @@ const Footer = () => {
                     <div>
                         <h3 className="text-lg font-semibold mb-4">Connect</h3>
                         <ul className="space-y-2">
-                            <li className="text-gray-400">info@ByteNode.com</li>
-                            <li className="text-gray-400">+260 760123364</li>
-                             <li className="text-gray-400">+260 979710217</li>
+                            <li className="text-gray-400">info@ZedTask.com</li>
+                            <li className="text-gray-400">+260 76050 9704</li>
+
                         </ul>
                     </div>
                 </div>
 
                 <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-                    <p>&copy; 2024 ByteNode. All rights reserved.</p>
+                    <p>&copy; 2024 ZedTask. All rights reserved.</p>
                 </div>
             </div>
         </footer>

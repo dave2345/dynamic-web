@@ -83,7 +83,7 @@ const About = () => {
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="text-center">
                         <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-blue-600 via-purple-600 to-gray-900 bg-clip-text text-transparent">
-                            About ByteNode
+                            About ZedTask
                         </h1>
                         <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
                             We are a team of passionate developers, designers, and innovators dedicated to

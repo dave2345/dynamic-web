@@ -4,9 +4,7 @@ use App\Http\Controllers\Admin\AdminController;
 use App\Http\Controllers\Admin\HomeController;
 use App\Http\Controllers\PageController;
 use App\Http\Controllers\Admin\ServiceController;
-use App\Models\Home;
 use Illuminate\Support\Facades\Route;
-use Inertia\Inertia;
 // Public routes
 Route::get('/', [PageController::class, 'home'])->name('home');
 Route::get('/about', [PageController::class, 'about'])->name('about');

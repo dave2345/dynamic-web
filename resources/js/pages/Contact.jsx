@@ -29,9 +29,9 @@ const Contact = () => {
         {
             icon: '📧',
             title: 'Email Us',
-            details: 'info@ByteNode.com',
+            details: 'info@zedtask.com',
             description: 'Send us an email anytime',
-            link: 'mailto:info@ByteNode.com'
+            link: 'mailto:info@zedtask.com'
         },
         {
             icon: '📞',
@@ -76,7 +76,7 @@ const Contact = () => {
 
     if (submitted) {
         return (
-            <MainLayout title="Thank You - ByteNode">
+            <MainLayout title="Thank You - zedtask">
                 <section className="min-h-screen flex items-center justify-center bg-gray-50 py-20">
                     <div className="max-w-md mx-auto text-center">
                         <div className="w-20 h-20 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6">
@@ -101,7 +101,7 @@ const Contact = () => {
     }
 
     return (
-        <MainLayout title="Contact Us - ByteNode">
+        <MainLayout title="Contact Us - zedtask">
             {/* Hero Section */}
             <section className="relative py-20 bg-gradient-to-br from-blue-600/5 via-purple-600/5 to-gray-900/5">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
