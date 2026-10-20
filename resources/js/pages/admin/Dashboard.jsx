@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link, useForm } from '@inertiajs/react';
-import AdminLayout from '../../Layouts/AdminLayout';
+import AdminLayout from '../../layouts/AdminLayout';
 
 const Dashboard = ({ services, sections, stats }) => {
     const [activeTab, setActiveTab] = useState('overview');
