@@ -11,15 +11,20 @@ const appName = import.meta.env.VITE_APP_NAME || 'Dave Tech';
 
 createInertiaApp({
     title: (title) => (title ? `${title} - ${appName}` : appName),
-    resolve: async (name) => {
-        // Support both .tsx and .jsx pages
+
+    resolve: (name) => {
         const pages = {
-            ...import.meta.glob('./pages/**/*.tsx'),
             ...import.meta.glob('./pages/**/*.jsx'),
+            ...import.meta.glob('./pages/**/*.tsx'),
         };
-        return await resolvePageComponent(`./pages/${name}.tsx`, pages)
-            .catch(() => resolvePageComponent(`./pages/${name}.jsx`, pages));
+
+        const page = pages[`./pages/${name}.jsx`]
+            ? `./pages/${name}.jsx`
+            : `./pages/${name}.tsx`;
+
+        return resolvePageComponent(page, pages);
     },
+
     setup({ el, App, props }) {
         const root = createRoot(el);
 
